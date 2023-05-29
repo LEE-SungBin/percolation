@@ -1,0 +1,12 @@
+안녕하세요. 인턴 이성빈입니다.
+
+공휴일에 연락드려서 죄송합니다.
+제가 percolation c++ 코드와 spin glass (normal distribution coupling parameter potts) python 코드를 어느 정도 완성하였는데 저번과 같이 첨삭을 받을 수 있는지 문의드립니다.
+
+제가 중점적으로 파악하고 싶은 부분은 다음과 같습니다.
+1. percolation의 cluster labeling이 Hoshen–Kopelman algorithm의 O(size^dimension)보다 오래 걸리는데 그 원인이 궁금합니다.
+2. c++/python에서 std::vector/np.array의 memory를 어떻게 효율적으로 관리하는지 궁금합니다. (malloc, calloc, realloc 등)
+3. 검색 결과 c++에서 pickle로 저장하거나 dataframe으로 불러오는 것이 불가능한 것 같은데 어떻게 효율적으로 데이터를 import / export하는지 궁금합니다.
+4. spin glass의 analysis.ipynb에서 카테고리별 plot을 위해 array of pd.DataFrame를 만들었는데 더 좋은 방법이 있는지 궁금합니다.
+
+감사합니다.
